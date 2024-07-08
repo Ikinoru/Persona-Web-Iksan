@@ -105,6 +105,6 @@ body {
 /* Media Queries for Mobile Devices */
 @media (max-width: 500px) {
     .cat-animation img {
-        width: 650px; /* Adjust the image size for mobile */
+        width: 300px; /* Adjust the image size for mobile */
     }
 }

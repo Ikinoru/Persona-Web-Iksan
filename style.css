@@ -94,6 +94,6 @@ body::after {
 
 }
 header nav a {
-    margin-right: 15px; /* Kurangi margin antara link pada perangkat mobile */
+    margin-right: 8px; /* Kurangi margin antara link pada perangkat mobile */
     margin-bottom: 10px; /* Tambahkan margin bawah agar link tidak terlalu rapat */
 }
