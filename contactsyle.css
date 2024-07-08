@@ -103,9 +103,8 @@ body {
 }
 
 /* Media Queries for Mobile Devices */
-@media (max-width: 768px) {
-    .content, .bar {
-        flex-direction: column;
-        padding: 10px;
+@media (max-width: 500px) {
+    .cat-animation img {
+        width: 650px; /* Adjust the image size for mobile */
     }
 }

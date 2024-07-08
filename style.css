@@ -84,6 +84,16 @@ body::after {
 @media (max-width: 768px) {
     .content, .bar {
         flex-direction: column;
-        padding: 10px;
+        padding: 15px;
     }
+
+    header {
+        padding: 15px 5px; /* Kurangi padding pada header untuk perangkat mobile */
+        flex-direction: column; /* Ubah layout menjadi kolom */
+    }
+
+}
+header nav a {
+    margin-right: 15px; /* Kurangi margin antara link pada perangkat mobile */
+    margin-bottom: 10px; /* Tambahkan margin bawah agar link tidak terlalu rapat */
 }
