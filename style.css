@@ -21,7 +21,7 @@ header nav a {
     text-decoration: none; /* Remove underline from links */
     margin-right: 20px; /* Add space between the links */
     animation: fadeIn 2s ease-in-out;
-    font-family: 'Times serif';
+    font-family: 'sans-serif';
 }
 
 body {
