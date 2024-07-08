@@ -79,3 +79,11 @@ body::after {
 #animasi {
     animation: fadeIn 2s ease-in-out;
 }
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    .content, .bar {
+        flex-direction: column;
+        padding: 10px;
+    }
+}

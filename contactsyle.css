@@ -101,3 +101,11 @@ body {
     font-size: 0.8em;
     color: #bbb;
 }
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    .content, .bar {
+        flex-direction: column;
+        padding: 10px;
+    }
+}
