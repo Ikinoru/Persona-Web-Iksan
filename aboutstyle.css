@@ -1,0 +1,150 @@
+/* aboutstyle.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #3F4045;
+}
+
+header {
+    color: rgb(195, 60, 60);
+    padding: 25px 0;
+    text-align: center;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px;
+}
+
+.navbar a:hover {
+    background-color: #444;
+    border-radius: 5px;
+}
+
+.text-layer {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.text-foreground {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.text-background {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #3F4045;
+    border-radius: 5px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#gambar img {
+    border-radius: 50%;
+}
+
+#content2 {
+    margin-left: 20px;
+}
+
+#highlight {
+    font-weight: bold;
+    color: rgb(195, 60, 60);
+}
+
+.bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    background-color: #3F4045;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.column {
+    flex: 1;
+    margin: 25px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill-name {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.skill-bar {
+    background-color: #393a40;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.skill-progress {
+    background-color: rgb(195, 60, 60);
+    height: 100%;
+}
+
+.skill-percentage {
+    text-align: right;
+    margin-top: 5px;
+    color: white;
+}
+
+.button {
+    text-align: center;
+    margin: 50px;
+}
+
+.back-to-home {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.back-to-home:hover {
+    background-color: rgb(195, 60, 60);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+#animasi {
+    animation: fadeIn 2s ease-in-out;
+}

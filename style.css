@@ -1,0 +1,81 @@
+header{
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: "sans-serif";
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 17px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+header nav a {
+    color: white; /* Set link color to white */
+    text-decoration: none; /* Remove underline from links */
+    margin-right: 20px; /* Add space between the links */
+    animation: fadeIn 2s ease-in-out;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url('backround.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 0; /* Ensure there is no default margin */
+    display: flex; /* Enable flexbox layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #7a7a7ab7; /* 50% opacity black */
+    z-index: 0; /* Place this behind any other content */
+}
+
+.content {
+    text-align: center; /* Center text within the container */
+    position: relative;
+    z-index: 1; /* Ensure the content is above the overlay */
+}
+
+#content1 {
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px; /* Add some space between the two content divs */
+    animation: fadeIn 2s ease-in-out; 
+}
+
+#content2 {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    animation: fadeIn 2s ease-in-out; 
+}
+
+#highlight {
+    color: rgb(195, 60, 60);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+#animasi {
+    animation: fadeIn 2s ease-in-out;
+}
