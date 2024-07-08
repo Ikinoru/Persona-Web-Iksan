@@ -21,6 +21,7 @@ header nav a {
     text-decoration: none; /* Remove underline from links */
     margin-right: 20px; /* Add space between the links */
     animation: fadeIn 2s ease-in-out;
+    font-family: 'Times serif';
 }
 
 body {
@@ -94,6 +95,6 @@ body::after {
 
 }
 header nav a {
-    margin-right: 8px; /* Kurangi margin antara link pada perangkat mobile */
+    margin-right: 6px; /* Kurangi margin antara link pada perangkat mobile */
     margin-bottom: 10px; /* Tambahkan margin bawah agar link tidak terlalu rapat */
 }
